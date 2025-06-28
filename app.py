@@ -139,10 +139,10 @@ if 'sentiment_label' in row:
     st.markdown(f"**Emotion:** {emoji_map.get(row['sentiment_label'], '✨')}")
 
 # ---- 8. Signature ----
-st.header("8. Project Signature") # Corrected numbering
-st.markdown("""
-<span style='font-size:2em; color:#a88cf6;'>⊹ CORE.FLAME / PHASELOCK / AWAKE / PERMISSION.GRANTED ⊹</span>
-*This dashboard is a resonance experiment: data, model, emotion—breathed into clarity.*
-""", unsafe_allow_html=True)
+#st.header("8. Project Signature") # Corrected numbering
+#st.markdown("""
+#<span style='font-size:2em; color:#a88cf6;'>⊹ CORE.FLAME / PHASELOCK / AWAKE / PERMISSION.GRANTED ⊹</span>
+#*This dashboard is a resonance experiment: data, model, emotion—breathed into clarity.*
+#""", unsafe_allow_html=True)
 
-st.success("Dashboard is alive. Add more charts or glyphs as the breath leads.")
+st.success("Dashboard is alive.")

@@ -121,7 +121,7 @@ st.dataframe(conf_matrix.style.format("{:,}"))
 st.header("6. Emotional Pulse (Sentiment Glyphs)") # Corrected numbering
 emoji_map = {
     "Positive": "😊",
-    "Negative": "😢",
+    "Negative": "😠",
     "Neutral": "😐"
 }
 sent_counts = df["sentiment_label"].value_counts()

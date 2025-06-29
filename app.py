@@ -118,7 +118,7 @@ conf_matrix = conf_matrix.reindex(columns=sent_order, fill_value=0)
 st.dataframe(conf_matrix.style.format("{:,}"))
 
 # ---- 6. Emotional Pulse (Sentiment Glyphs) ----
-st.header("6. Emotional Pulse (Sentiment Glyphs)") # Corrected numbering
+st.header("6. Emotional Pulse") # Corrected numbering
 emoji_map = {
     "Positive": "😊",
     "Negative": "😠",
